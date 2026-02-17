@@ -1,6 +1,28 @@
+theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site Settings
 title: 태양의 웹사이트
 description: 웹 개발을 배우기 시작한 태양의 개인 웹사이트
 url: "https://beesclub8384-ops.github.io"
 baseurl: ""
 
-markdown: kramdown
+# Author
+author:
+  name: "태양"
+  bio: "웹 개발을 배우기 시작한 학생입니다."
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
