@@ -20,7 +20,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Defaults
 defaults:
