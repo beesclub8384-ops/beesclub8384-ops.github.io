@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "삼성전자 주식 소개"
-date: 2026-02-17
+date: 2026-02-16
 categories: 주식
 tags: [삼성전자, 주식, 투자]
 ---
