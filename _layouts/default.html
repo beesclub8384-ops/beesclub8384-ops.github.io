@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title | default: site.title }}</title>
+    <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 48px;
+        }
+        p {
+            color: #34495e;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 32px;
+            margin-top: 40px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            color: #34495e;
+            font-size: 18px;
+            padding: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    {{ content }}
+</body>
+</html>
