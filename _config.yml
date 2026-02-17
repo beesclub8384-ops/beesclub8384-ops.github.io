@@ -1,4 +1,4 @@
-# theme: minimal-mistakes-jekyll
+theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
@@ -19,7 +19,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
 # Defaults
 defaults:
