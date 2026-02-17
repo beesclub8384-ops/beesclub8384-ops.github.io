@@ -26,5 +26,10 @@ plugins:
 defaults:
   - scope:
       path: ""
+      type: posts
+    values:
+      layout: "single"
+  - scope:
+      path: ""
     values:
       layout: "single"
